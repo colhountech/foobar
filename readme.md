@@ -2,4 +2,3 @@
 
 Simple app to list devices.
 
-
