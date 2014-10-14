@@ -4162,7 +4162,7 @@ var $AnimateProvider = ['$provide', function($provide) {
    * therefore enable $animate to attempt to perform an animation on any element.
    * When setting the classNameFilter value, animations will only be performed on elements
    * that successfully match the filter expression. This in turn can boost performance
-   * for low-powered devices as well as applications containing a lot of structural operations.
+   * for low-powered device as well as applications containing a lot of structural operations.
    * @param {RegExp=} expression The className expression which will be checked against all animations
    * @return {RegExp} The current CSS className expression value. If null then there is no expression value
    */

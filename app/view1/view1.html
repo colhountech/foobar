@@ -1,1 +1,24 @@
 <p>This is the partial for view 1.</p>
+
+
+<h2>List of Devices</h2>
+<div ng-controller="View1Ctrl">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Asset Tag</th>
+            <th>Owner</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="item in devices">
+            <td>{{item.name}}</td>
+            <td>{{item.assetTag}}</td>
+            <td>{{item.owner}}</td>
+            <td>{{item.desc}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

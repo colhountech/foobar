@@ -1,4 +1,4 @@
-'use strict';
+//'use strict';
 
 angular.module('myApp.view1', ['ngRoute'])
 
@@ -9,6 +9,24 @@ angular.module('myApp.view1', ['ngRoute'])
   });
 }])
 
-.controller('View1Ctrl', [function() {
+.controller('View1Ctrl', ['$scope', function($scope) {
 
+        $scope.devices = [{
+            name: "iphone",
+            assetTag: "12312",
+            owner: "dev",
+            desc: "iOS 4.2"
+        },
+            {
+                name: "laptop",
+                assetTag: "12313",
+                owner: "dev",
+                desc: "iOS 4.2"
+            },
+            {
+                name: "android",
+                assetTag: "12314",
+                owner: "dev",
+                desc: "iOS 4.2"
+            }];
 }]);
