@@ -25,7 +25,7 @@ Npm start
 
 Ctrl-C to kill
 
-Npm tests
+Npm test
 
 Ctrl-C to kill
 
