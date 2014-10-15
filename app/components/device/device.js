@@ -7,10 +7,3 @@ angular.module('myApp.device', [
 ])
 
     .value('version', '0.1');
-
-/*
-function DeviceController($scope)
-{
-
-}
-*/
