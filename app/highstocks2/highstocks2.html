@@ -1,0 +1,18 @@
+<div ng-controller="Highstocks2Ctrl">
+
+<h3>{{message}}</h3>
+
+
+<div>
+          <input id="chartT" />
+          <button ng-click="addSeries()">Add Series</button>
+          <button ng-click="addPoints()" disabled>Add Points to Random Series</button>
+          <button ng-click="removeRandomSeries()">Remove Random Series</button>
+          <button ng-click="swapChartType()" disabled>Line/Bar</button>
+          <button ng-click="toggleLoading()" disabled>Loading?</button>
+        </div>
+        <div>
+          <div id="chart1" ></div>
+        </div>
+
+</div>
